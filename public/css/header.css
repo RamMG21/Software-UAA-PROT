@@ -1,0 +1,45 @@
+#encabezado
+{
+    position: absolute;
+    top: 50;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    display: block;
+    justify-content: space-between;
+    align-items:center;
+}
+
+#encabezado .logo {
+    color: #094b65;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration:none;
+}
+
+#encabezado ul{
+    display: flex;
+    margin-top: 30px;
+    justify-content:center;
+    align-items:center;
+}
+
+#encabezado ul li{
+
+    list-style: none;
+    margin-left:20px;
+}
+
+#encabezado ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #094b65;
+    border-radius: 20px;
+}
+
+#encabezado ul li a:hover, 
+#encabezado ul li a.active
+{
+    background: #094b65;
+    color: #fff;
+}

@@ -1,0 +1,201 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: courier;
+}
+
+
+
+/*Section number 1 start now-------------------------------- */
+.entrada_archivo
+{
+    border: 0;
+    outline: none;
+    position: absolute;
+    text-decoration: none;
+    top: 170px;
+    left: 150px;
+    background-color: #fff;
+    
+}
+
+#contenedor_archivos 
+{
+    position: flex;
+    top: 100px;
+    left: 100px;
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #094b65;
+    border-radius: 20px;
+}
+
+.boton_subir
+{
+    position: absolute;
+    top: 310px;
+    left: 150px;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    background: #094b65;
+    color: #fff;
+    
+}
+
+#investigador
+{
+    display: inline-block;
+    width: 420px;
+    position: static;
+    margin-top: 7.5em;
+    margin-left: 47em; 
+}
+
+.boton_seleccionar 
+{
+    position: absolute;
+    top: 175px;
+    left: 150px;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    background: #094b65;
+    color: #fff;
+}
+
+.boton_seleccionar2
+{
+    position: absolute;
+    top: 225px;
+    left: 150px;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+    background: #094b65;
+    color: #fff;
+}
+
+.boton_seleccionar3
+{
+    position: absolute;
+    top: 375px;
+    left: 150px;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    background: #094b65;
+    color: #fff;
+}
+
+.Instruccion_1{
+    position: absolute;
+    top: 155px;
+    left: 150px;
+    text-decoration: none;
+    color: #094b65;
+}
+
+.Instruccion_2{
+    position: absolute;
+    top: 305px;
+    left: 150px;
+    text-decoration: none;
+    color: #094b65;
+}
+/*Section number 1 end------------------------------------*/
+
+/*Section number 2 start now-------------------------------- */
+.section_2
+{
+    display: block;
+    position: absolute;
+    top: 500px;
+    left: 0px;
+    padding: 40px;
+    background: #094b65;
+}
+ h3, p
+{
+    color: #fff;
+}
+/*Section number 2 end------------------------------------*/
+
+
+/*Section number 3 start now-------------------------------- */
+
+.section_3 {
+    display: block;
+    margin-top: 100px;
+    padding: 50px;
+
+}
+
+.section_3 img#NCBI{
+    
+    width: 150px;
+    margin-top: 15px;
+    transition: 300ms;
+    /*margin-right: 20px;*/
+} 
+.section_3 img#UAA{
+    
+    width: 70px;
+    margin-top: 15px;
+    margin-left: 20px;
+    transition: 300ms;
+    /*margin-right: 20px;*/
+} 
+.section_3 img#CCB{
+    
+    width: 60px;
+    margin-top: 10px;
+    top: 100px;
+    margin-left: 30px;
+    transition: 300ms;
+    /*margin-right: 20px;*/
+} 
+
+img#NCBI:hover {
+    transform: scale(1.15);
+
+}
+img#UAA:hover {
+    transform: scale(1.15);
+
+}
+img#CCB:hover {
+    transform: scale(1.15);
+
+}
+/*Section number 3 end------------------------------------*/
+/*
+#NCBI{
+    width: 150px;
+    position: absolute;
+    top: 720px;
+    left: 300px;
+}
+
+#UAA{
+    width: 70px;
+    position: absolute;
+    top: 720px;
+    left: 100px;
+
+}
+#CCB{
+    width: 70px;
+    position: absolute;
+    top: 710px;
+    left: 200px;
+
+}
+*/
+/*Section number 3 end------------------------------------*/
