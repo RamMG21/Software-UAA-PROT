@@ -1,0 +1,57 @@
+/* FONT FAMILY Poppins BY GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* FONT FAMILY Inter BY GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+/* ROOT */
+
+*
+{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter',sans-serif;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: #094b65;
+}
+
+#fondo {
+    
+    width: 700px;
+    position: absolute;
+    top: 60px;
+    left: 720px;
+   
+    
+}
+
+#listado{
+    font-size: 30px;
+
+}
+
+
+
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h4{
+    font-family: 'Poppins',sans-serif;
+    position: relative;
+    animation: fadeinLeft 2.5s;
+    }
+    @keyframes fadeinLeft {
+    0%{
+        left: -50%;
+    }
+    100%{
+        left: 0;
+    }
+    }

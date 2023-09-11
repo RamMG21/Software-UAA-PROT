@@ -20,6 +20,17 @@ app.get("/home", (req , res) => {
     res.render("home", {titleService: "Message of home"})
 })
 
+app.get('/help', (req, res) => {
+    res.render('help');
+  })
+
+  app.get('/about', (req, res) => {
+    res.render('about');
+  })
+
+  app.get('/contact', (req, res) => {
+    res.render('contact');
+  })
 
 app.get("/services", (req , res) => {
     res.render("service", {titleService: "Message of service"})
