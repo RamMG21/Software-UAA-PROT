@@ -4,54 +4,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 /* ROOT */
 
-*
-{
-    
-    margin: 0;
+.Help-list{
+    padding-top: 100px;
+}
+
+h4 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.my-list {
+    list-style-type: none;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Inter',sans-serif;
 }
 
-h1{
-    font-family: 'Courier New', Courier, monospace;
-    color: #094b65;
+.my-list li {
+    text-decoration: none;
+    background-color: #f9f9f9; /* Color de fondo de los elementos */
+    margin: 5px 0; /* Espaciado entre elementos */
+    padding: 10px; /* Relleno dentro de cada elemento */
+    border: 1px solid #ddd; /* Borde alrededor de los elementos */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Transición suave para cambios de color */
 }
 
-#fondo {
-    
-    width: 700px;
-    position: absolute;
-    top: 60px;
-    left: 720px;
-   
-    
+.my-list li:hover {
+    background-color: #e0e0e0; /* Color de fondo al pasar el ratón por encima */
 }
-
-#listado{
-    font-size: 30px;
-
-}
-
-
-
-.centrado{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-h4{
-    font-family: 'Poppins',sans-serif;
-    position: relative;
-    animation: fadeinLeft 2.5s;
-    }
-    @keyframes fadeinLeft {
-    0%{
-        left: -50%;
-    }
-    100%{
-        left: 0;
-    }
-    }
